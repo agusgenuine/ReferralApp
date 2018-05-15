@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/referral_code_edit_text"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_height="50dp"
+            android:hint="Enter the shared code here..."
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/enter_code_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="#0097a7"
+            android:onClick="RedeemCode"
+            android:text="Redeem code!"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+    </LinearLayout>
+    
+</android.support.v7.widget.LinearLayoutCompat>
